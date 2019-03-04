@@ -1,12 +1,29 @@
-.deneme{
-	height:500px;
-	width:500px;
-	background-color:orange;
-	margin: auto;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-.deneme1{
-	height:500px;
-	width:500px;
-	background-color:pink;
-	margin:auto;
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.div1{
+  margin: auto; 
+  height:500px;
+  width: 800px;
+  background-color:#984830;
 }
