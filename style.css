@@ -31,10 +31,36 @@ li a:hover {
 }
 .div2{
 
-
- 
-  height:50px;
-  width: 50px;
+  margin-left: 40px;
+  border-style:solid;
+  border-color: #eccec5; 
+  height:160px;
+  width: 154px;
   background-color:#ffffff;
 }
+.div3{
+
+  height:50px;
+  width: 50px;
+  background-color:#eccec5;
+}
+.div4{
+
+  margin-left: 40px;
+  border-style:solid;
+  border-color: #eccec5; 
+  height:160px;
+  width: 154px;
+  background-color:#ffffff;
+}
+.div5{
+
+  margin-left: 40px;
+  border-style:solid;
+  border-color: #eccec5; 
+  height:160px;
+  width: 154px;
+  background-color:#ffffff;
+}
+
 
