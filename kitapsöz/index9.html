@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<title>HECE LAMBASI</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style9.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body bgcolor="#eccec5">
+<div class="div3">logo
+</div>
+<ul>
+  <li><a class="active" href="file:///C:/Users/Melike%20Pc/Desktop/melike/web-projem/index.html">Anasayfa</a></li>
+  <li><a href="file:///C:/Users/Melike%20Pc/Desktop/melike/web-projem/g%C3%BCn%C3%BCns%C3%B6z%C3%BC/index7.html">Günün Sözü</a></li>
+  <li><a href="file:///C:/Users/Melike%20Pc/Desktop/melike/web-projem/%C3%BCnl%C3%BCs%C3%B6zler/index8.html">Ünlü Sözler</a></li>
+  <li><a href="file:///C:/Users/Melike%20Pc/Desktop/melike/web-projem/kitaps%C3%B6z/index9.html">Kitaplardan Sözler</a></li>
+  <li><a href="file:///C:/Users/Melike%20Pc/Desktop/melike/web-projem/ileti%C5%9Fim/index10.html">İletişim</a></li>
+</ul><br>
+<div class="div1">
+<br><br>
+<a><center>KİTAPLARDAN SÖZLERİ</center></a><br>
+<div class="w3-container">
+  
+</div>
+<br>
+<br>
+<div class="w3-content" style="max-width:900px">
+  <center><img class="mySlides" src="2.dosto_.annaya.olan_.hislerini.jpg" style="width:85%;display:none">
+  <img class="mySlides" src="yaprakagac.jpg" style="width:85%">
+  <img class="mySlides" src="BbSYog2IIAAsL_j.jpg" style="width:85%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="2.dosto_.annaya.olan_.hislerini.jpg" style="width:80%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="yaprakagac.jpg" style="width:80%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="BbSYog2IIAAsL_j.jpg" style="width:80%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+
+
+</div>
+<script language="javascript" src="http://ir.sitekodlari.com/yukaricik15.js"></script>
+</body>
+</html>
