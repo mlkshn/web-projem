@@ -39,3 +39,11 @@ li a:hover {
 a { font-family: Sans-serif; }
 
 
+ #div9{
+  border-color: pink;
+  border-style: solid;
+  border-width: 10px;
+  width: 800px;
+  height: 250px;
+  margin: 25px;
+ }
