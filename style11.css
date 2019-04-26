@@ -116,3 +116,21 @@ font: 12px Arial, Helvetica, sans-serif;
 background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
 background-color: #28739E;
 }
+#deneme19 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 25px auto;
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 150px;
+    box-shadow: 0 0 45px #895546 inset, 0 0 10px 4px #895546;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+    #deneme19:hover {
+        box-shadow: 0 0 15px #895546 inset, 0 0 5px 2px #895546;
+    }
